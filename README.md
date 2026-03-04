@@ -10,6 +10,7 @@
 https://github.com/user-attachments/assets/1214b82a-3a5a-4d65-844a-878f0dbab004
 
 ## Updates
+- [Mar 5, 2026] 🔥 UniSplat is accepted at [ICLR2026](https://openreview.net/forum?id=Ng2VDbKD4r).
 - [Dec 7, 2025] Demo code and pretrained weights for the Waymo Dataset have been released. Demo for novel view synthesis (rotation and shift) and scene completion will be released soon.
 
 
@@ -43,11 +44,13 @@ The script will process the input data and save the rendered images along with d
 ## Citation
 Please consider citing our work as follows if it is helpful.
 ```
-@article{shi2025unisplat,
+@inproceedings{
+  shi2026unisplat,
   title={UniSplat: Unified Spatio-Temporal Fusion via 3D Latent Scaffolds for Dynamic Driving Scene Reconstruction},
-  author={Shi, Chen and Shi, Shaoshuai and Lyu, Xiaoyang and Liu, Chunyang and Sheng, Kehua and Zhang, Bo and Jiang, Li},
-  journal={arXiv preprint arXiv:2511.04595},
-  year={2025}
+  author={Chen Shi and Shaoshuai Shi and Xiaoyang Lyu and Chunyang Liu and Kehua Sheng and Bo Zhang and Li Jiang},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=Ng2VDbKD4r}
 }
 ```
 
