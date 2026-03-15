@@ -152,3 +152,4 @@ skyseg.onnx
 
 work_dirs
 .vscode/
+data/waymo

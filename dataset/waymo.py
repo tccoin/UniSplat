@@ -200,7 +200,7 @@ class WaymoDataset(Dataset):
         for i in range(1, self.future_num+1):
             after_frame = int(frame_name) + i
             after_frame = min(after_frame, max(frames_list))
-            after_frame = str(after_frame).zfill(6)
+            after_frame = str(after_frame).zfill(len(frame_name))
             after_index = self.sample_dict[scene][after_frame]
             select_cam = []
             for j in range(self.frame_num):
